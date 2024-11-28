@@ -1,16 +1,11 @@
 ﻿using Doing.Retail.Core.Application.Pipelines.Authorization;
-using MediatR;
+using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 using Moongazing.PipelineEnhancer.Pipelines.Caching;
 using Moongazing.PipelineEnhancer.Pipelines.Logging;
 using Moongazing.PipelineEnhancer.Pipelines.Transaction;
 using Moongazing.PipelineEnhancer.Pipelines.Validation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Moongazing.PipelineEnhancer;
 
@@ -21,6 +16,7 @@ public static class BehaviorExtensions
         services.AddMediatR(configuration =>
         {
             configuration.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
+            configuration.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
             configuration.AddOpenBehavior(typeof(AuthorizationBehavior<,>));
             configuration.AddOpenBehavior(typeof(CachingBehavior<,>));
             configuration.AddOpenBehavior(typeof(CacheRemovingBehavior<,>));
@@ -29,6 +25,7 @@ public static class BehaviorExtensions
             configuration.AddOpenBehavior(typeof(TransactionScopeBehavior<,>));
         });
 
+        services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
         return services;
     }
 

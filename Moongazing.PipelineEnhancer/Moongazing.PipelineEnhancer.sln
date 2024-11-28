@@ -7,6 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.PipelineEnhancer
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4E0BBE58-8DEC-4613-8EAA-FEA42FA27C5B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FF99A329-3E01-4373-9029-47FF01CE6DB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.PipelineEnhancer.Tests", "tests\Moongazing.PipelineEnhancer.Tests\Moongazing.PipelineEnhancer.Tests.csproj", "{EB270730-044B-47C4-AECF-CCAC57720C68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{81AFEBFA-C969-428F-AF4D-873E99C1AD17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.PipelineEnhancer.Sample", "sample\Moongazing.PipelineEnhancer.Sample\Moongazing.PipelineEnhancer.Sample.csproj", "{8764D294-7291-48BA-957C-6301489A8EA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +25,21 @@ Global
 		{CA1DA705-103C-47FD-A600-D0ADD4A7D47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA1DA705-103C-47FD-A600-D0ADD4A7D47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA1DA705-103C-47FD-A600-D0ADD4A7D47E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB270730-044B-47C4-AECF-CCAC57720C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB270730-044B-47C4-AECF-CCAC57720C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB270730-044B-47C4-AECF-CCAC57720C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB270730-044B-47C4-AECF-CCAC57720C68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8764D294-7291-48BA-957C-6301489A8EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8764D294-7291-48BA-957C-6301489A8EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8764D294-7291-48BA-957C-6301489A8EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8764D294-7291-48BA-957C-6301489A8EA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CA1DA705-103C-47FD-A600-D0ADD4A7D47E} = {4E0BBE58-8DEC-4613-8EAA-FEA42FA27C5B}
+		{EB270730-044B-47C4-AECF-CCAC57720C68} = {FF99A329-3E01-4373-9029-47FF01CE6DB5}
+		{8764D294-7291-48BA-957C-6301489A8EA4} = {81AFEBFA-C969-428F-AF4D-873E99C1AD17}
 	EndGlobalSection
 EndGlobal
