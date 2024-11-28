@@ -15,6 +15,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{81AFEB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.PipelineEnhancer.Sample", "sample\Moongazing.PipelineEnhancer.Sample\Moongazing.PipelineEnhancer.Sample.csproj", "{8764D294-7291-48BA-957C-6301489A8EA4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{4BEAE447-E4DE-4C9C-B28A-EE4472BECE49}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,5 +47,6 @@ Global
 		{CA1DA705-103C-47FD-A600-D0ADD4A7D47E} = {4E0BBE58-8DEC-4613-8EAA-FEA42FA27C5B}
 		{EB270730-044B-47C4-AECF-CCAC57720C68} = {FF99A329-3E01-4373-9029-47FF01CE6DB5}
 		{8764D294-7291-48BA-957C-6301489A8EA4} = {81AFEBFA-C969-428F-AF4D-873E99C1AD17}
+		{4BEAE447-E4DE-4C9C-B28A-EE4472BECE49} = {4E0BBE58-8DEC-4613-8EAA-FEA42FA27C5B}
 	EndGlobalSection
 EndGlobal
