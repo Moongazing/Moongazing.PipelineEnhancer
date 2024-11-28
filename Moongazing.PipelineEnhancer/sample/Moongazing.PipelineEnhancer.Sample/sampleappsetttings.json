@@ -1,8 +1,0 @@
-﻿{
-  "CacheSettings": {
-    "SlidingExpirationInMinutes": 1
-  },
-  "ConnectionStrings": {
-    "Redis": "your-redis-server:6379,password=yourpassword,ssl=False"
-  }
-}
